@@ -31,8 +31,6 @@ List the dependencies of the Analysis-functionality.
 3. Telemetric information/data availability in the csv
 4. Function to generate the PDf report 
 
-(add more if needed)
-
 ### Mark the System Boundary
 
 What is included in the software unit-test? What is not? Fill this table.
