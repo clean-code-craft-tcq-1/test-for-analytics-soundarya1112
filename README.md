@@ -61,8 +61,6 @@ Add to these tests:
 9. Set an alert to trigger a notification everytime a new report is available.
 
 
-(add more)
-
 ### Recognize Fakes and Reality
 
 Consider the tests for each functionality below.
