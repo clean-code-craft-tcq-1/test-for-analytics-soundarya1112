@@ -76,11 +76,7 @@ Enter one part that's real and another part that's faked/mocked.
 Read input from server     | csv file     | internal data-structure     | Fake the server store
 Validate input             | csv data     | valid / invalid             | None - it's a pure function
 Notify report availability | PDF File     | Notification triggered      | fake the notification triggers
-Report inaccessible server | Server IP
-                            /Path         | Connection Failed           | None - it's a required verification
-Find minimum and maximum   | csv          | Obtain max and 
-                                            min readings                | None - it is a pure function
-Detect trend               | csv          | Obtain trends with date 
-                                            and time                    | None - it is a pure function
-Write to PDF               | csv          | pdf with obtained max,min 
-                                            and trends                  | fake the pdf generator call
+Report inaccessible server | Server IP/Path| Connection Failed          | None - it's a required verification
+Find minimum and maximum   | csv          | Obtain max and min readings | None - it is a pure function
+Detect trend               | csv          | Obtain trends with date and time| None - it is a pure function
+Write to PDF               | csv          | pdf with obtained max,min and trends| fake the pdf generator call
